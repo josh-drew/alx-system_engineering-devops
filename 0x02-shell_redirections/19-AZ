@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p "Enter some text: " input && echo "results after running script: $input" | tr 'Ac' 'Ze'
+read -p "Enter some text: " input; echo "results after running script: $input" | tr 'Ac' 'Ze'
