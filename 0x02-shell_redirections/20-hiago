@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "come and eat rice" | tr -d 'cC'
+tr -d 'cC'
