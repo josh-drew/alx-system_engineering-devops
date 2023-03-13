@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Replace all characters A and c from input to Z and e." | tr 'Ac' 'Ze'
+read -p "Enter some text: " input && echo "results after running script: $input" | tr 'Ac' 'Ze'
